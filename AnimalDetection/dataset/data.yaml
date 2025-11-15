@@ -1,5 +1,15 @@
+# Đường dẫn tới tập ảnh
 train: ../dataset/images/train
 val: ../dataset/images/val
 
-nc: 6   # số lượng loài động vật
-names: ['cat', 'chicken', 'cow','dog','elephant','horse']
+# Số lượng class
+nc: 6
+
+# Tên các class
+names:
+  0: cat
+  1: chicken
+  2: cow
+  3: dog
+  4: elephant
+  5: horse

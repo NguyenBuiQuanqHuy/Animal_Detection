@@ -6,9 +6,8 @@ model.train(
     data='dataset/data.yaml',
     epochs=50,
     imgsz=640,
-    batch=8,
+    batch=4,
     project='runs/animal_yolo',
     name='animal_detection',
     exist_ok=True
 )
-
